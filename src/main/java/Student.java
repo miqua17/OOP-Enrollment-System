@@ -44,13 +44,6 @@ public String getStudentProgram() {
 public void setStudentProgram(String program) {
     this.program = program;
 
-   }
-
-public void display() {
-
-    System.out.println("Student ID:" + student.getStudentID());
-    System.out.println("Student Name:" + student.getStudentName());
-    System.out.println("Student Program:" + student.getStudentProgram());
-
-    }
+       }
 }
+

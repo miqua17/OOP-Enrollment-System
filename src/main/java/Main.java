@@ -3,7 +3,7 @@ public class Main {
 
         Student student = new Student();
         student.setStudentID(10209302);
-        student.setStudentName("John Die");
+        student.setStudentName("John Doe");
         student.setStudentProgram("BSIT");
 
 
@@ -17,7 +17,6 @@ public class Main {
         System.out.println("Student Name:" + student.getStudentName());
         System.out.println("Student Program:" + student.getStudentProgram());
 
-        student.display();
 
         System.out.println("Course ID:" + course.getCourseID());
         System.out.println("Course Name:" + course.getCourseName());
