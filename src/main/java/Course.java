@@ -25,8 +25,8 @@ public void setCourseID(int courseID) {
 }
 
 public String getCourseName() {
-        return courseName;
-
+    return courseName;
+}
 
 public void setCourseName(String courseName) {
         this.courseName = courseName;
