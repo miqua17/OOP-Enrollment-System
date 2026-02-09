@@ -8,39 +8,47 @@ public class Course {
 
     }
 
-    public Course (int courseID, String courseName, String program) {
+    public Course(int courseID, String courseName, String program) {
         this.courseID = courseID;
         this.courseName = courseName;
         this.program = program;
 
     }
 
-    public int getCourseID(){
+    public int getCourseID() {
         return courseID;
 
-}
+    }
 
-public void setCourseID(int courseID) {
+    public void setCourseID(int courseID) {
         this.courseID = courseID;
-}
+    }
 
-public String getCourseName() {
-    return courseName;
-}
+    public String getCourseName() {
+        return courseName;
+    }
 
-public void setCourseName(String courseName) {
+    public void setCourseName(String courseName) {
         this.courseName = courseName;
 
-}
+    }
 
-public String getCourseProgram() {
+    public String getCourseProgram() {
         return program;
 
     }
 
 
-public void setCourseProgram(String program) {
+    public void setCourseProgram(String program) {
         this.program = program;
+
+    }
+
+    public void display() {
+        System.out.println("\nCourse ID:" + getCourseID());
+        System.out.println("Course Name:" + getCourseName());
+        System.out.println("Course Program:" + getCourseProgram());
+
 
     }
 }
