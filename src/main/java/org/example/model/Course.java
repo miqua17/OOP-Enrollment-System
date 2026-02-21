@@ -1,3 +1,5 @@
+package org.example;
+
 public class Course {
 
     int courseID;
@@ -21,10 +23,12 @@ public class Course {
     }
 
     public void setCourseID(int courseID) {
+
         this.courseID = courseID;
     }
 
     public String getCourseName() {
+
         return courseName;
     }
 
@@ -45,9 +49,9 @@ public class Course {
     }
 
     public void display() {
-        System.out.println("\nCourse ID:" + getCourseID());
-        System.out.println("Course Name:" + getCourseName());
-        System.out.println("Course Program:" + getCourseProgram());
+        System.out.println("\norg.example.Course ID:" + getCourseID());
+        System.out.println("org.example.Course Name:" + getCourseName());
+        System.out.println("org.example.Course Program:" + getCourseProgram());
 
 
     }
